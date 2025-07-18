@@ -7,6 +7,7 @@ Currently the weapon parameter changer script (wepc.py) is in development, demon
 
 ### Project setup
 Basic project setup goes as follows:
+  - Make sure you have Python 3.13 or later installed
   - Download the project, which includes the scripts (currently wepc.py) and its dependencies in the Data folder
   - Open config.json in notepad and update "pbs_path" to where your game is located. The default path is set to "C:/Steam/steamapps/common/Senran Kagura Peach Beach Splash". If config.json paths are not valid, the script will fail
 
