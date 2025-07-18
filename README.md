@@ -3,7 +3,7 @@
 This repository offers scripts intended for modding equipment in Senran Kagura: Peach Beach Splash (PBS).
 Currently the weapon parameter changer script (wepc.py) is in development, demonstrating changes on a level 10 assault rifle.
 
-##Usage
+## Usage
 
 ### Project setup
 Basic project setup goes as follows:
@@ -36,15 +36,15 @@ Options are still in development but can be combined. Below command combines clo
 > wepc.py -d 33 -D 27 -a 0.66
 ```
 
-##Reverting changes
+## Reverting changes
 The scripts will be designed with backup recovery in the future. In the meantime, you can manage recovery two ways:
 
 1. Making a backup of WaterGunParam.bin with a different name prior to making changes (e.g., WaterGunParam.bin.bak), then renaming it back after deleting the modded one
 
 2. "Properties... -> Installed Files -> Verify ingefrity of game files" from the Steam library will recover game files to their original state. Note that this can remove other mods that you may have installed for PBS
 
-##Managing save data
+## Managing save data
 I always test mods using in-game save data specifically created for modding purposes, and I recommend you do the same. That way you can sleep well at night knowing that, after you finish playing around with mods, your original save file is perfectly legitimate for the usual singleplayer / multiplayer fun.
 
-##Disclaimer
+## Disclaimer
 My tools are intended for recreational use to explore different possibilities of experiencing PBS. I do not endorse the scripts to be used for malicious uses, such as deliberately cheating in multiplayer or even singleplayer. Use these scripts responsibly.
