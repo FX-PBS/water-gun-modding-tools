@@ -1,0 +1,86 @@
+[
+	{
+		"water_gun": "Assault Rifle",
+		"header": {
+			"level_1": 16,
+			"level_2": 40,
+			"level_3": 64,
+			"level_4": 88,
+			"level_5": 112,
+			"level_6": 136,
+			"level_7": 160,
+			"level_8": 184,
+			"level_9": 208,
+			"level_10": 232
+		},
+		"parameters": {
+			"level_1": {
+				"primary_fire": 7456,
+				"secondary_fire": 12656
+			},
+			"level_2": {
+				"primary_fire": 7980,
+				"secondary_fire": 12696
+			},
+			"level_3": {
+				"primary_fire": 8504,
+				"secondary_fire": 13220
+			},
+			"level_4": {
+				"primary_fire": 9028,
+				"secondary_fire": 13744
+			},
+			"level_5": {
+				"primary_fire": 9552,
+				"secondary_fire": 14268
+			},
+			"level_6": {
+				"primary_fire": 10076,
+				"secondary_fire": 14792
+			},
+			"level_7": {
+				"primary_fire": 10600,
+				"secondary_fire": 15316
+			},
+			"level_8": {
+				"primary_fire": 11124,
+				"secondary_fire": 15840
+			},
+			"level_9": {
+				"primary_fire": 11648,
+				"secondary_fire": 16364
+			},
+			"level_10": {
+				"primary_fire": 12172,
+				"secondary_fire": 16888
+			}
+		}
+	},
+	{
+		"water_gun": "Shotgun"
+	},
+	{
+		"water_gun": "Grenade Launcher"
+	},
+	{
+		"water_gun": "Rocket Launcher"
+	},
+	{
+		"water_gun": "Sniper Rifle"
+	},
+	{
+		"water_gun": "Pistol"
+	},
+	{
+		"water_gun": "Dual Pistols"
+	},
+	{
+		"water_gun": "Spray Gun"
+	},
+	{
+		"water_gun": "Gatling Gun"
+	},
+	{
+		"water_gun": "Shower Gun"
+	}
+]

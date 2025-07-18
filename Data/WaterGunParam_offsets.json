@@ -1,0 +1,31 @@
+[
+	{
+		"header_offsets": {
+			"level": 0,
+			"model": 4,
+			"water_tank_type": 8,
+			"primary_fire": 12,
+			"secondary_fire": 16
+		}
+	},
+	{
+		"parameter_offsets": {
+			"close_damage": 0,
+			"close_soak": 8,
+			"far_damage": 12,
+			"far_soak": 20,
+			"fire_type": 24,
+			"burst_size": 28,
+			"burst_delay": 32,
+			"aim_assist_strength": 40,
+			"water_usage": 44,
+			"projectile_hitbox_size": 48,
+			"fire_rate": 52,
+			"travel_speed": 56,
+			"accuracy": 60,
+			"projectiles_per_shot": 64,
+			"projectile_travel_distance": 68,
+			"damage_falloff_distance": 72
+		}
+	}
+]
