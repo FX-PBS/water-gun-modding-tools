@@ -1,0 +1,55 @@
+wepc - Weapon parameter changer
+
+DESCRIPTION
+  Modifies various parts the WaterGunParam.bin file based on arguments provided by the user.
+  *IMPORTANT* Be sure change the pbs_path field in config.json to match the location for your copy of PBS, otherwise the script will fail.
+
+USAGE
+  wepc.py weapon level mode [parameter value]...
+  wepc.py other [argument]
+
+OPTIONS
+  Weapon option expects one of the following:
+    * assault        * shotgun
+    * grenade        * rocket
+    * sniper         * pistol
+    * dual           * spray
+    * gatling        * shower
+
+  Level option expects a number in range 1 to 10, inclusive
+
+  Mode option expects a number, either 1 for primary fire or 2 for secondary fire
+
+  Available parameter options expecting a value of some type (typically floating point):
+    * -d       [float]     Damage value triggered before damage falloff
+    * -D       [float]     Damage value triggered after damage falloff
+    * -s       [float]     Soak at close range
+    * -S       [float]     Soak from afar
+    * -f       [int]       Fire type (auto, semi-auto, burst, full burst) defined from 0 to 3, respectively
+    * -b       [int]       Burst size, active when fire type is set to brust
+    * -B       [float]     Delay between each shot in a burst
+    * -A       [float]     Aim assist strength
+    * -w       [float]     How much water is consumed per shot
+    * -p       [float]     Projectile travel speed
+    * -r       [float]     Changes base fire rate
+    * -c       [int]       Projectile count per shot
+    * -P       [float]     Maximum distance a projectile is allowed to travel
+    * -a       [float]     Accuracy value (0.0 - 1.0); 1.0 means 100% accuracy, 0.5 is 50%, etc.
+    * -F       [float]     Distance after which damage falloff is triggered (i.e., close damage becomes far damage)
+
+  Using other options follows a different syntax, such as for file backup (see examples):
+    * --help                       Prints detailed help message (this)
+    * --load-backup                Replaces current WaterGunParam.bin file with the backup specified in config.json
+    * --load           [string]    Overwrites WaterGunParam.bin with a custom file
+    * --write          [string]    Duplicates WaterGunParam.bin with a new name
+
+EXAMPLES
+  wepc.py assault 10 1 -d 8 -D 30          Shots deal 8 damage up close and 30 from afar
+  wepc.py assault 10 1 -r 99               Allows the water gun to fire 99 shots per second
+  wepc.py dual 10 2 -a 0.85 -c 3           Dual pistol secondary mode now creates 3 projectiles per shot; accuracy changed to 85%
+  wepc.py rocket 10 1 -f 0 -r 5.0 -w 0     Rocket launcher primary becomes an automatic weapon as opposed to semi-automatic, with high fire rate and zero water usage
+  wepc.py --load-backup                    Loads the backup file if it exists
+  wepc.py --write CrazySniper.bin          Creates a duplicate of WaterGunParam.bin file with the name "CrazySniper.bin"
+
+NOTES
+  You have to restart the game to see your changes.

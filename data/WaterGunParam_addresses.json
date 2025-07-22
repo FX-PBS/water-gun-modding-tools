@@ -1,0 +1,82 @@
+[
+	{
+		"water_gun": "Assault Rifle",
+		"header": 16,
+		"parameters": {
+			"primary_fire": 7456,
+			"secondary_fire": 12656
+		}
+	},
+	{
+		"water_gun": "Shotgun",
+		"header": 256,
+		"parameters": {
+			"primary_fire": 17939,
+			"secondary_fire": 23176
+		}
+	},
+	{
+		"water_gun": "Grenade Launcher",
+		"header": 496,
+		"parameters": {
+			"primary_fire": 28416,
+			"secondary_fire": 33656
+		}
+	},
+	{
+		"water_gun": "Rocket Launcher",
+		"header": 736,
+		"parameters": {
+			"primary_fire": 38896,
+			"secondary_fire": 44660
+		}
+	},
+	{
+		"water_gun": "Sniper Rifle",
+		"header": 976,
+		"parameters": {
+			"primary_fire": 49376,
+			"secondary_fire": 54616
+		}
+	},
+	{
+		"water_gun": "Pistol",
+		"header": 1216,
+		"parameters": {
+			"primary_fire": 59856,
+			"secondary_fire": 65096
+		}
+	},
+	{
+		"water_gun": "Dual Pistols",
+		"header": 1456,
+		"parameters": {
+			"primary_fire": 70336,
+			"secondary_fire": 75576
+		}
+	},
+	{
+		"water_gun": "Spray Gun",
+		"header": 1696,
+		"parameters": {
+			"primary_fire": 80816,
+			"secondary_fire": 86104
+		}
+	},
+	{
+		"water_gun": "Gatling Gun",
+		"header": 1936,
+		"parameters": {
+			"primary_fire": 91296,
+			"secondary_fire": 96536
+		}
+	},
+	{
+		"water_gun": "Shower Gun",
+		"header": 2176,
+		"parameters": {
+			"primary_fire": 101776,
+			"secondary_fire": 107016
+		}
+	}
+]
