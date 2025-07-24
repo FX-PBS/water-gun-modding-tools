@@ -1,0 +1,84 @@
+[
+	{
+		"water_capacity": {
+			"offset": 0,
+			"type": "float"
+		},
+		"recharge_rate": {
+			"offset": 4,
+			"type": "float"
+		},
+		"passive_recharge_rate": {
+			"offset": 8,
+			"type": "float"
+		},
+		"disable_dash": {
+			"offset": 12,
+			"type": "float"
+		},
+		"blink_interval": {
+			"offset": 16,
+			"type": "float"
+		},
+		"blink_bonus_speed": {
+			"offset": 20,
+			"type": "float"
+		},
+		"blink_cost": {
+			"offset": 24,
+			"type": "float"
+		},
+		"dash_speed": {
+			"offset": 68,
+			"type": "float"
+		},
+		"dash_cost_per_second": {
+			"offset": 72,
+			"type": "float"
+		},
+		"???": {
+			"offset": 108,
+			"type": "float"
+		},
+		"???": {
+			"offset": 112,
+			"type": "float"
+		},
+		"automatic_rejump": {
+			"offset": 116,
+			"type": "int"
+		},
+		"double_jump_delay": {
+			"offset": 120,
+			"type": "float"
+		},
+		"double_jump_strength": {
+			"offset": 124,
+			"type": "float"
+		},
+		"double_jump_initial_cost": {
+			"offset": 128,
+			"type": "float"
+		},
+		"???": {
+			"offset": 164,
+			"type": "float"
+		},
+		"???": {
+			"offset": 168,
+			"type": "float"
+		},
+		"hover_strength": {
+			"offset": 172,
+			"type": "float"
+		},
+		"flight_strength": {
+			"offset": 176,
+			"type": "float"
+		},
+		"flight_cost_per_second": {
+			"offset": 180,
+			"type": "float"
+		},
+	}
+]
