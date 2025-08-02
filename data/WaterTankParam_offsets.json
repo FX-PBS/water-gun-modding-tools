@@ -2,83 +2,143 @@
 	{
 		"water_capacity": {
 			"offset": 0,
-			"type": "float"
+			"option": "-c",
+			"long_option": "--water-capacity",
+			"brief": "Water tank's maximum water capacity (1000 by default)",
+			"type": "<f"
 		},
 		"recharge_rate": {
 			"offset": 4,
-			"type": "float"
+			"option": "-r",
+			"long_option": "--recharge-rate",
+			"brief": "How quickly you reload manually",
+			"type": "<f"
 		},
 		"passive_recharge_rate": {
 			"offset": 8,
-			"type": "float"
+			"option": "-R",
+			"long_option": "--passive-recharge-rate",
+			"brief": "Passive water tank reload rate",
+			"type": "<f"
 		},
 		"disable_dash": {
 			"offset": 12,
-			"type": "float"
+			"option": "-d",
+			"long_option": "--disable-dash",
+			"brief": "Dashing won't do anything",
+			"type": "<f"
 		},
-		"blink_interval": {
+		"blink_<ierval": {
 			"offset": 16,
-			"type": "float"
+			"option": "-b",
+			"long_option": "--blink-<ierval",
+			"brief": "<ierval between blinks",
+			"type": "<f"
 		},
 		"blink_bonus_speed": {
 			"offset": 20,
-			"type": "float"
+			"option": "-B",
+			"long_option": "--blink-speed",
+			"brief": "Extra speed you get during a blink",
+			"type": "<f"
 		},
 		"blink_cost": {
 			"offset": 24,
-			"type": "float"
+			"option": "-C",
+			"long_option": "--blink-cost",
+			"brief": "Water usage of the blink",
+			"type": "<f"
 		},
 		"dash_speed": {
 			"offset": 68,
-			"type": "float"
+			"option": "-s",
+			"long_option": "--dash-speed",
+			"brief": "How fast you can dash",
+			"type": "<f"
 		},
 		"dash_cost_per_second": {
 			"offset": 72,
-			"type": "float"
+			"option": "-S",
+			"long_option": "--dash-cost",
+			"brief": "The rate at which water decreases while dashing",
+			"type": "<f"
 		},
-		"???": {
+		"???_unknown_1": {
 			"offset": 108,
-			"type": "float"
+			"option": "--unknown1",
+			"long_option": "--unknown1",
+			"brief": "",
+			"type": "<f"
 		},
-		"???": {
+		"???_unknown_2": {
 			"offset": 112,
-			"type": "float"
+			"option": "--unknown2",
+			"long_option": "--unknown2",
+			"brief": "",
+			"type": "<f"
 		},
 		"automatic_rejump": {
 			"offset": 116,
-			"type": "int"
+			"option": "-a",
+			"long_option": "--auto-jump",
+			"brief": "If true, holding jump key will automatically trigger double jump",
+			"type": "<i"
 		},
 		"double_jump_delay": {
 			"offset": 120,
-			"type": "float"
+			"option": "-j",
+			"long_option": "--double-jump-delay",
+			"brief": "Delay before you can double jump again",
+			"type": "<f"
 		},
 		"double_jump_strength": {
 			"offset": 124,
-			"type": "float"
+			"option": "-J",
+			"long_option": "--double-jump-strength",
+			"brief": "How high you double jump",
+			"type": "<f"
 		},
 		"double_jump_initial_cost": {
 			"offset": 128,
-			"type": "float"
+			"option": "-I",
+			"long_option": "--double-jump-cost",
+			"brief": "Water usage when initiating double jump",
+			"type": "<f"
 		},
-		"???": {
+		"???_unknown_3": {
 			"offset": 164,
-			"type": "float"
+			"option": "--unknown3",
+			"long_option": "--unknown3",
+			"brief": "",
+			"type": "<f"
 		},
-		"???": {
+		"???_unknown_4": {
 			"offset": 168,
-			"type": "float"
+			"option": "--unknown4",
+			"long_option": "--unknown4",
+			"brief": "",
+			"type": "<f"
 		},
 		"hover_strength": {
 			"offset": 172,
-			"type": "float"
+			"option": "-h",
+			"long_option": "--hover-strength",
+			"brief": "How well you can ma<iain yourself in air when holding jump key",
+			"type": "<f"
 		},
 		"flight_strength": {
 			"offset": 176,
-			"type": "float"
+			"option": "-f",
+			"long_option": "--flight-strength",
+			"brief": "Flight strength",
+			"type": "<f"
 		},
 		"flight_cost_per_second": {
 			"offset": 180,
-			"type": "float"
-		},
+			"option": "-F",
+			"long_option": "--flight-cost",
+			"brief": "Rate at which flight consumes water",
+			"type": "<f"
+		}
 	}
 ]
