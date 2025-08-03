@@ -1,144 +1,124 @@
 [
 	{
 		"water_capacity": {
+			"param_name": "Water capacity",
 			"offset": 0,
-			"option": "-c",
-			"long_option": "--water-capacity",
 			"brief": "Water tank's maximum water capacity (1000 by default)",
-			"type": "<f"
+			"type": "float"
 		},
 		"recharge_rate": {
+			"param_name": "Recharge rate",
 			"offset": 4,
-			"option": "-r",
-			"long_option": "--recharge-rate",
 			"brief": "How quickly you reload manually",
-			"type": "<f"
+			"type": "float"
 		},
 		"passive_recharge_rate": {
+			"param_name": "Passive recharge rate",
 			"offset": 8,
-			"option": "-R",
-			"long_option": "--passive-recharge-rate",
 			"brief": "Passive water tank reload rate",
-			"type": "<f"
+			"type": "float"
 		},
 		"disable_dash": {
+			"param_name": "Disable dash",
 			"offset": 12,
-			"option": "-d",
-			"long_option": "--disable-dash",
 			"brief": "Dashing won't do anything",
-			"type": "<f"
+			"type": "float"
 		},
-		"blink_<ierval": {
+		"blink_interval": {
+			"param_name": "Blink interval",
 			"offset": 16,
-			"option": "-b",
-			"long_option": "--blink-<ierval",
-			"brief": "<ierval between blinks",
-			"type": "<f"
+			"brief": "Interval between blinks",
+			"type": "float"
 		},
 		"blink_bonus_speed": {
+			"param_name": "Blink bonus speed",
 			"offset": 20,
-			"option": "-B",
-			"long_option": "--blink-speed",
 			"brief": "Extra speed you get during a blink",
-			"type": "<f"
+			"type": "float"
 		},
 		"blink_cost": {
+			"param_name": "Blink cost",
 			"offset": 24,
-			"option": "-C",
-			"long_option": "--blink-cost",
 			"brief": "Water usage of the blink",
-			"type": "<f"
+			"type": "float"
 		},
 		"dash_speed": {
+			"param_name": "Dash speed",
 			"offset": 68,
-			"option": "-s",
-			"long_option": "--dash-speed",
 			"brief": "How fast you can dash",
-			"type": "<f"
+			"type": "float"
 		},
-		"dash_cost_per_second": {
+		"dash_cost": {
+			"param_name": "Dash cost",
 			"offset": 72,
-			"option": "-S",
-			"long_option": "--dash-cost",
 			"brief": "The rate at which water decreases while dashing",
-			"type": "<f"
+			"type": "float"
 		},
 		"???_unknown_1": {
+			"param_name": "Unknown 1",
 			"offset": 108,
-			"option": "--unknown1",
-			"long_option": "--unknown1",
 			"brief": "",
-			"type": "<f"
+			"type": "float"
 		},
 		"???_unknown_2": {
+			"param_name": "Unknown 2",
 			"offset": 112,
-			"option": "--unknown2",
-			"long_option": "--unknown2",
 			"brief": "",
-			"type": "<f"
+			"type": "float"
 		},
-		"automatic_rejump": {
+		"auto_jump": {
+			"param_name": "Auto jump",
 			"offset": 116,
-			"option": "-a",
-			"long_option": "--auto-jump",
 			"brief": "If true, holding jump key will automatically trigger double jump",
-			"type": "<i"
+			"type": "int"
 		},
 		"double_jump_delay": {
+			"param_name": "Double jump delay",
 			"offset": 120,
-			"option": "-j",
-			"long_option": "--double-jump-delay",
 			"brief": "Delay before you can double jump again",
-			"type": "<f"
+			"type": "float"
 		},
 		"double_jump_strength": {
+			"param_name": "Double jump strength",
 			"offset": 124,
-			"option": "-J",
-			"long_option": "--double-jump-strength",
 			"brief": "How high you double jump",
-			"type": "<f"
+			"type": "float"
 		},
-		"double_jump_initial_cost": {
+		"double_jump_cost": {
+			"param_name": "Double jump cost",
 			"offset": 128,
-			"option": "-I",
-			"long_option": "--double-jump-cost",
 			"brief": "Water usage when initiating double jump",
-			"type": "<f"
+			"type": "float"
 		},
 		"???_unknown_3": {
+			"param_name": "Unknown 3",
 			"offset": 164,
-			"option": "--unknown3",
-			"long_option": "--unknown3",
 			"brief": "",
-			"type": "<f"
+			"type": "float"
 		},
 		"???_unknown_4": {
+			"param_name": "Unknown 4",
 			"offset": 168,
-			"option": "--unknown4",
-			"long_option": "--unknown4",
 			"brief": "",
-			"type": "<f"
+			"type": "float"
 		},
 		"hover_strength": {
+			"param_name": "Hover strength",
 			"offset": 172,
-			"option": "-h",
-			"long_option": "--hover-strength",
-			"brief": "How well you can ma<iain yourself in air when holding jump key",
-			"type": "<f"
+			"brief": "How well you can maintain yourself in air when holding jump key",
+			"type": "float"
 		},
 		"flight_strength": {
+			"param_name": "Flight strength",
 			"offset": 176,
-			"option": "-f",
-			"long_option": "--flight-strength",
 			"brief": "Flight strength",
-			"type": "<f"
+			"type": "float"
 		},
-		"flight_cost_per_second": {
+		"flight_cost": {
+			"param_name": "Flight cost",
 			"offset": 180,
-			"option": "-F",
-			"long_option": "--flight-cost",
 			"brief": "Rate at which flight consumes water",
-			"type": "<f"
+			"type": "float"
 		}
 	}
 ]

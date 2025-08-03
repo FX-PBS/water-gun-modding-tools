@@ -1,35 +1,104 @@
 [
 	{
+		"close_damage": {
+			"param_name": "Close damage",
+			"offset": 0,
+			"brief": "Damage of the water gun at close range",
+			"type": "float"
+		},
+		"close_soak": {
+			"param_name": "Close soak",
+			"offset": 8,
+			"brief": "",
+			"type": "float"
+		},
+		"far_damage": {
+			"param_name": "Far damage",
+			"offset": 12,
+			"brief": "",
+			"type": "float"
+		},
+		"far_soak": {
+			"param_name": "Far soak",
+			"offset": 20,
+			"brief": "",
+			"type": "float"
+		},
+		"fire_type": {
+			"param_name": "Fire type",
+			"offset": 24,
+			"brief": "",
+			"type": "int"
+		},
+		"burst_size": {
+			"param_name": "Burst size",
+			"offset": 28,
+			"brief": "",
+			"type": "int"
+		},
+		"burst_delay": {
+			"param_name": "Burst delay",
+			"offset": 32,
+			"brief": "",
+			"type": "float"
+		},
+		"aim_assist_strength": {
+			"param_name": "Aim assist strength",
+			"offset": 40,
+			"brief": "",
+			"type": "float"
+		},
+		"water_usage": {
+			"param_name": "Water usage",
+			"offset": 44,
+			"brief": "",
+			"type": "float"
+		},
+		"projectile_hitbox_size": {
+			"param_name": "Projectile hitbox size",
+			"offset": 48,
+			"brief": "",
+			"type": "float"
+		},
+		"fire_rate": {
+			"param_name": "Fire rate",
+			"offset": 52,
+			"brief": "",
+			"type": "float"
+		},
+		"projectile_travel_speed": {
+			"param_name": "Projectile travel speed",
+			"offset": 56,
+			"brief": "",
+			"type": "float"
+		},
+		"accuracy": {
+			"param_name": "Accuracy",
+			"offset": 60,
+			"brief": "",
+			"type": "float"
+		},
+		"projectile_count": {
+			"param_name": "Projectile count",
+			"offset": 64,
+			"brief": "",
+			"type": "int"
+		},
+		"projectile_travel_distance": {
+			"param_name": "Projectile travel distance",
+			"offset": 68,
+			"brief": "",
+			"type": "float"
+		},
+		"damage_falloff_distance": {
+			"param_name": "Damage falloff distance",
+			"offset": 72,
+			"brief": "",
+			"type": "float"
+		}
+	},
+	{
 		"header_level_diff": 24,
-		"parameter_level_diff": 524
-	},
-	{
-		"header_offsets": {
-			"level": 0,
-			"model": 4,
-			"water_tank_type": 8,
-			"primary_fire": 12,
-			"secondary_fire": 16
-		}
-	},
-	{
-		"parameter_offsets": {
-			"close_damage": 0,
-			"close_soak": 8,
-			"far_damage": 12,
-			"far_soak": 20,
-			"fire_type": 24,
-			"burst_size": 28,
-			"burst_delay": 32,
-			"aim_assist_strength": 40,
-			"water_usage": 44,
-			"projectile_hitbox_size": 48,
-			"fire_rate": 52,
-			"projectile_travel_speed": 56,
-			"accuracy": 60,
-			"projectile_count": 64,
-			"projectile_travel_distance": 68,
-			"damage_falloff_distance": 72
-		}
+		"param_level_diff": 524
 	}
 ]
