@@ -15,8 +15,7 @@ from tool_base import ParamWriter, parse_config
 class GunParamWriter(ParamWriter):
 
     def parse_arguments(self, args):
-        if len(args) < self.config["min_args"]:
-            self.display_help_message()
+        if self.perform_standard_preliminaries(args) != 0:
             return -100
 
         try:
@@ -68,7 +67,11 @@ class GunParamWriter(ParamWriter):
 # ---------------------------------------------------------
 
 if __name__ == "__main__":
-    writer = GunParamWriter(parse_config(get_project_root() + "config.json", "gun"))
+    writer = GunParamWriter(
+        parse_config(get_project_root() + "config.json", "gun"),
+        "Weapon parameter changer",
+        "wepc.py weapon level firing_mode [option value]...\nwepc.py special_option [value]",
+    )
 
     writer_exit_code: int
 

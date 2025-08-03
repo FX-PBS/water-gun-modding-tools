@@ -15,8 +15,7 @@ from tool_base import ParamWriter, parse_config
 class TankParamWriter(ParamWriter):
 
     def parse_arguments(self, args):
-        if len(args) < self.config["min_args"]:
-            self.display_help_message()
+        if self.perform_standard_preliminaries(args) != 0:
             return -100
 
         try:
@@ -58,7 +57,11 @@ class TankParamWriter(ParamWriter):
 # ---------------------------------------------------------
 
 if __name__ == "__main__":
-    writer = TankParamWriter(parse_config(get_project_root() + "config.json", "tank"))
+    writer = TankParamWriter(
+        parse_config(get_project_root() + "config.json", "tank"),
+        "Tank parameter changer",
+        "tapc.py weapon [option value]...\ntapc.py special_option [value]",
+    )
 
     writer_exit_code: int
 
