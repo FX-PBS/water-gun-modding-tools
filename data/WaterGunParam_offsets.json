@@ -3,97 +3,97 @@
 		"close_damage": {
 			"param_name": "Close damage",
 			"offset": 0,
-			"brief": "Damage of the water gun at close range",
+			"brief": "Weapon damage before falloff",
 			"type": "float"
 		},
 		"close_soak": {
 			"param_name": "Close soak",
 			"offset": 8,
-			"brief": "",
+			"brief": "Ally soak before falloff",
 			"type": "float"
 		},
 		"far_damage": {
 			"param_name": "Far damage",
 			"offset": 12,
-			"brief": "",
+			"brief": "Weapon damage after falloff",
 			"type": "float"
 		},
 		"far_soak": {
 			"param_name": "Far soak",
 			"offset": 20,
-			"brief": "",
+			"brief": "Ally soak after falloff",
 			"type": "float"
 		},
 		"fire_type": {
 			"param_name": "Fire type",
 			"offset": 24,
-			"brief": "",
+			"brief": "How the weapon shoots (auto/semi-auto/burst/full burst). Valid ranges are 0 to 3",
 			"type": "int"
 		},
 		"burst_size": {
 			"param_name": "Burst size",
 			"offset": 28,
-			"brief": "",
+			"brief": "How many shots are fired in burst fire mode",
 			"type": "int"
 		},
 		"burst_delay": {
 			"param_name": "Burst delay",
 			"offset": 32,
-			"brief": "",
+			"brief": "Delay between shots in a burst",
 			"type": "float"
 		},
 		"aim_assist_strength": {
 			"param_name": "Aim assist strength",
 			"offset": 40,
-			"brief": "",
+			"brief": "How well does aim assist snap to a target",
 			"type": "float"
 		},
 		"water_usage": {
 			"param_name": "Water usage",
 			"offset": 44,
-			"brief": "",
+			"brief": "Water consumed per shot",
 			"type": "float"
 		},
 		"projectile_hitbox_size": {
 			"param_name": "Projectile hitbox size",
 			"offset": 48,
-			"brief": "",
+			"brief": "Size of a weapon projectile",
 			"type": "float"
 		},
 		"fire_rate": {
 			"param_name": "Fire rate",
 			"offset": 52,
-			"brief": "",
+			"brief": "How fast you can shoot",
 			"type": "float"
 		},
 		"projectile_travel_speed": {
 			"param_name": "Projectile travel speed",
 			"offset": 56,
-			"brief": "",
+			"brief": "How fast weapon projectiles travel",
 			"type": "float"
 		},
 		"accuracy": {
 			"param_name": "Accuracy",
 			"offset": 60,
-			"brief": "",
+			"brief": "How precise your weapon fires. Valid ranges are 0.0 to 1.0",
 			"type": "float"
 		},
 		"projectile_count": {
 			"param_name": "Projectile count",
 			"offset": 64,
-			"brief": "",
+			"brief": "How many projectiles are fired per shot",
 			"type": "int"
 		},
 		"projectile_travel_distance": {
 			"param_name": "Projectile travel distance",
 			"offset": 68,
-			"brief": "",
+			"brief": "How far weapon projectiles can travel",
 			"type": "float"
 		},
 		"damage_falloff_distance": {
 			"param_name": "Damage falloff distance",
 			"offset": 72,
-			"brief": "",
+			"brief": "Distance after which damage falloff is triggered",
 			"type": "float"
 		}
 	},

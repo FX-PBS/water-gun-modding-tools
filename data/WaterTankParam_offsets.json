@@ -21,8 +21,8 @@
 		"disable_dash": {
 			"param_name": "Disable dash",
 			"offset": 12,
-			"brief": "Dashing won't do anything",
-			"type": "float"
+			"brief": "Dashing won't do anything (only blinks allowed)",
+			"type": "int"
 		},
 		"blink_interval": {
 			"param_name": "Blink interval",

@@ -9,7 +9,7 @@
 		"-C": "blink_cost",
 		"-s": "dash_speed",
 		"-S": "dash_cost",
-		"-a": "auto_double_jump",
+		"-a": "auto_jump",
 		"-j": "double_jump_delay",
 		"-J": "double_jump_strength",
 		"-I": "double_jump_cost",
