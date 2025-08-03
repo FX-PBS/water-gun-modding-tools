@@ -1,82 +1,37 @@
 [
 	{
-		"water_gun": "Assault Rifle",
-		"header": 16,
-		"parameters": {
-			"primary_fire": 7456,
-			"secondary_fire": 12656
-		}
+		"assault_1": 7456,
+		"shotgun_1": 17939,
+		"grenade_1": 28416,
+		"rocket_1": 38896,
+		"sniper_1": 49376,
+		"pistol_1": 59856,
+		"duals_1": 70336,
+		"spray_1": 80816,
+		"gatling_1": 91296,
+		"shower_1": 101776,
+
+		"assault_2": 12656,
+		"shotgun_2": 23176,
+		"grenade_2": 33656,
+		"rocket_2": 44660,
+		"sniper_2": 54616,
+		"pistol_2": 65096,
+		"duals_2": 75576,
+		"spray_2": 86104,
+		"gatling_2": 96536,
+		"shower_2": 107016
 	},
 	{
-		"water_gun": "Shotgun",
-		"header": 256,
-		"parameters": {
-			"primary_fire": 17939,
-			"secondary_fire": 23176
-		}
-	},
-	{
-		"water_gun": "Grenade Launcher",
-		"header": 496,
-		"parameters": {
-			"primary_fire": 28416,
-			"secondary_fire": 33656
-		}
-	},
-	{
-		"water_gun": "Rocket Launcher",
-		"header": 736,
-		"parameters": {
-			"primary_fire": 38896,
-			"secondary_fire": 44660
-		}
-	},
-	{
-		"water_gun": "Sniper Rifle",
-		"header": 976,
-		"parameters": {
-			"primary_fire": 49376,
-			"secondary_fire": 54616
-		}
-	},
-	{
-		"water_gun": "Pistol",
-		"header": 1216,
-		"parameters": {
-			"primary_fire": 59856,
-			"secondary_fire": 65096
-		}
-	},
-	{
-		"water_gun": "Dual Pistols",
-		"header": 1456,
-		"parameters": {
-			"primary_fire": 70336,
-			"secondary_fire": 75576
-		}
-	},
-	{
-		"water_gun": "Spray Gun",
-		"header": 1696,
-		"parameters": {
-			"primary_fire": 80816,
-			"secondary_fire": 86104
-		}
-	},
-	{
-		"water_gun": "Gatling Gun",
-		"header": 1936,
-		"parameters": {
-			"primary_fire": 91296,
-			"secondary_fire": 96536
-		}
-	},
-	{
-		"water_gun": "Shower Gun",
-		"header": 2176,
-		"parameters": {
-			"primary_fire": 101776,
-			"secondary_fire": 107016
-		}
+		"assault_header": 16,
+		"shotgun_header": 256,
+		"grenade_header": 496,
+		"rocket_header": 736,
+		"sniper_header": 976,
+		"pistol_header": 1216,
+		"duals_header": 1456,
+		"spray_header": 1696,
+		"gatling_header": 1936,
+		"shower_header": 2176
 	}
 ]

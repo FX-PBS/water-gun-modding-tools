@@ -1,0 +1,35 @@
+[
+	{
+		"-d": "close_damage",
+		"-D": "far_damage",
+		"-s": "close_soak",
+		"-S": "far_soak",
+		"-r": "fire_rate",
+		"-w": "water_usage",
+		"-a": "accuracy",
+		"-A": "aim_assist_strength",
+		"-f": "fire_type",
+		"-F": "damage_falloff_distance",
+		"-b": "burst_size",
+		"-B": "burst_delay",
+		"-p": "projectile_travel_speed",
+		"-P": "projectile_travel_distance",
+		"-c": "projectile_count",
+
+		"--close-damage": "close_damage",
+		"--far-damage": "far_damage",
+		"--close-soak": "close_soak",
+		"--far-soak": "far_soak",
+		"--fire-rate": "fire_rate",
+		"--water-usage": "water_usage",
+		"--accuracy": "accuracy",
+		"--aim-assist-strength": "aim_assist_strength",
+		"--fire-type": "fire_type",
+		"--damage-falloff-distance": "damage_falloff_distance",
+		"--burst-size": "burst_size",
+		"--burst-delay": "burst_delay",
+		"--projectile-travel-speed": "projectile_travel_speed",
+		"--projectile-travel-distance": "projectile_travel_distance",
+		"--projectile-count": "projectile_count"
+	}
+]

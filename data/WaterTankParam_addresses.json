@@ -1,0 +1,14 @@
+[
+	{
+		"assault": 12,
+		"shotgun": 236,
+		"grenade": 460,
+		"rocket": 684,
+		"sniper": 908,
+		"pistol": 1132,
+		"dual": 1356,
+		"spray": 1580,
+		"gatling": 1804,
+		"shower": 2028
+	}
+]

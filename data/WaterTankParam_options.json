@@ -1,0 +1,42 @@
+[
+	{
+		"-c": "water_capacity",
+		"-r": "recharge_rate",
+		"-R": "passive_recharge_rate",
+		"-d": "disable_dash",
+		"-b": "blink_interval",
+		"-B": "blink_bonus_speed",
+		"-C": "blink_cost",
+		"-s": "dash_speed",
+		"-S": "dash_cost",
+		"-a": "auto_double_jump",
+		"-j": "double_jump_delay",
+		"-J": "double_jump_strength",
+		"-I": "double_jump_cost",
+		"-h": "hover_strength",
+		"-f": "flight_strength",
+		"-F": "flight_cost",
+
+		"--water-capacity": "water_capacity",
+		"--recharge-rate": "recharge_rate",
+		"--passive_recharge_rate": "passive_recharge_rate",
+		"--disable-dash": "disable_dash",
+		"--blink-interval": "blink_interval",
+		"--blink-bonus-speed": "blink_bonus_speed",
+		"--blink-cost": "blink_cost",
+		"--dash-speed": "dash_speed",
+		"--dash-cost": "dash_cost",
+		"--auto-jump": "auto_jump",
+		"--double_jump_delay": "double_jump_delay",
+		"--double-jump-strength": "double_jump_strength",
+		"--double-jump-cost": "double_jump_cost",
+		"--hover-strength": "hover_strength",
+		"--flight-strength": "flight_strength",
+		"--flight-cost": "flight_cost",
+
+		"--unknown1": "???_unknown_1",
+		"--unknown2": "???_unknown_2",
+		"--unknown3": "???_unknown_3",
+		"--unknown4": "???_unknown_4"
+	}
+]

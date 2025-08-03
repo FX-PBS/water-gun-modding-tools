@@ -1,0 +1,124 @@
+[
+	{
+		"water_capacity": {
+			"param_name": "Water capacity",
+			"offset": 0,
+			"brief": "Water tank's maximum water capacity (1000 by default)",
+			"type": "float"
+		},
+		"recharge_rate": {
+			"param_name": "Recharge rate",
+			"offset": 4,
+			"brief": "How quickly you reload manually",
+			"type": "float"
+		},
+		"passive_recharge_rate": {
+			"param_name": "Passive recharge rate",
+			"offset": 8,
+			"brief": "Passive water tank reload rate",
+			"type": "float"
+		},
+		"disable_dash": {
+			"param_name": "Disable dash",
+			"offset": 12,
+			"brief": "Dashing won't do anything",
+			"type": "float"
+		},
+		"blink_interval": {
+			"param_name": "Blink interval",
+			"offset": 16,
+			"brief": "Interval between blinks",
+			"type": "float"
+		},
+		"blink_bonus_speed": {
+			"param_name": "Blink bonus speed",
+			"offset": 20,
+			"brief": "Extra speed you get during a blink",
+			"type": "float"
+		},
+		"blink_cost": {
+			"param_name": "Blink cost",
+			"offset": 24,
+			"brief": "Water usage of the blink",
+			"type": "float"
+		},
+		"dash_speed": {
+			"param_name": "Dash speed",
+			"offset": 68,
+			"brief": "How fast you can dash",
+			"type": "float"
+		},
+		"dash_cost": {
+			"param_name": "Dash cost",
+			"offset": 72,
+			"brief": "The rate at which water decreases while dashing",
+			"type": "float"
+		},
+		"???_unknown_1": {
+			"param_name": "Unknown 1",
+			"offset": 108,
+			"brief": "",
+			"type": "float"
+		},
+		"???_unknown_2": {
+			"param_name": "Unknown 2",
+			"offset": 112,
+			"brief": "",
+			"type": "float"
+		},
+		"auto_jump": {
+			"param_name": "Auto jump",
+			"offset": 116,
+			"brief": "If true, holding jump key will automatically trigger double jump",
+			"type": "int"
+		},
+		"double_jump_delay": {
+			"param_name": "Double jump delay",
+			"offset": 120,
+			"brief": "Delay before you can double jump again",
+			"type": "float"
+		},
+		"double_jump_strength": {
+			"param_name": "Double jump strength",
+			"offset": 124,
+			"brief": "How high you double jump",
+			"type": "float"
+		},
+		"double_jump_cost": {
+			"param_name": "Double jump cost",
+			"offset": 128,
+			"brief": "Water usage when initiating double jump",
+			"type": "float"
+		},
+		"???_unknown_3": {
+			"param_name": "Unknown 3",
+			"offset": 164,
+			"brief": "",
+			"type": "float"
+		},
+		"???_unknown_4": {
+			"param_name": "Unknown 4",
+			"offset": 168,
+			"brief": "",
+			"type": "float"
+		},
+		"hover_strength": {
+			"param_name": "Hover strength",
+			"offset": 172,
+			"brief": "How well you can maintain yourself in air when holding jump key",
+			"type": "float"
+		},
+		"flight_strength": {
+			"param_name": "Flight strength",
+			"offset": 176,
+			"brief": "Flight strength",
+			"type": "float"
+		},
+		"flight_cost": {
+			"param_name": "Flight cost",
+			"offset": 180,
+			"brief": "Rate at which flight consumes water",
+			"type": "float"
+		}
+	}
+]

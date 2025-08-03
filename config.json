@@ -1,9 +1,29 @@
 [
 	{
-		"pbs_path": "C:/Steam/steamapps/common/Senran Kagura Peach Beach Splash",
-		"water_gun_param_path": "/GameData/Binary/Equip/",
-		"water_gun_param_backup_name": "WaterGunParam.bin.bak",
-		"data_path": "data/",
-		"assets_path": "assets/"
+		"pbs_dir": "C:/Steam/steamapps/common/Senran Kagura Peach Beach Splash",
+		"param_dir": "/GameData/Binary/Equip/",
+		"backup_dir": "/GameData/Binary/Equip/",
+
+		"data_dir": "data/",
+		"assets_dir": "assets/"
+	},
+	{
+		"param_gun_filename": "WaterGunParam.bin",
+		"param_gun_backup_filename": "WaterGunParam.bin.bak",
+		"param_tank_filename": "WaterTankParam.bin",
+		"param_tank_backup_filename": "WaterTankParam.bin.bak",
+
+		"data_gun_addresses_filename": "WaterGunParam_addresses.json",
+		"data_gun_offsets_filename": "WaterGunParam_offsets.json",
+		"data_gun_options_filename": "WaterGunParam_options.json",
+
+		"data_tank_addresses_filename": "WaterTankParam_addresses.json",
+		"data_tank_offsets_filename": "WaterTankParam_offsets.json",
+		"data_tank_options_filename": "WaterTankParam_options.json"
+	},
+	{
+		"gun_min_args": 6,
+		"tank_min_args": 4,
+		"store_backup_in_pbs": true
 	}
 ]
